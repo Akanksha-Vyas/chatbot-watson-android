@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
-
+    this.setTitle("SVVV Bot");
     mContext = getApplicationContext();
 
     inputMessage = findViewById(R.id.message);
